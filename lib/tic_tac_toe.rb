@@ -71,17 +71,17 @@ class TicTacToe
   end
 
   def full?
+    counter = 0
     @board.each do |index|
-      if index.all == index
-        binding.pry
+      if index == position_taken
         true
-
       else
         false
-
-     end
-    end
+      end
+      counter += 1
   end
-
+  #def position_taken?(index_i)
+    #((@board[index_i] == "X") || (@board[index_i] == "O"))
+#  end
 
 end
