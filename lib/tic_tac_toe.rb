@@ -104,8 +104,4 @@ class TicTacToe
     puts "Cat's Game!"
   end
  end
-
- game = TicTacToe.new
- game.play
-
 end
