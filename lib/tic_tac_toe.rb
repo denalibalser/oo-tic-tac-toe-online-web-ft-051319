@@ -74,7 +74,7 @@ class TicTacToe
     @board.each do |index|
     binding.pry
     end
-  end 
+  end
 
 
 end
