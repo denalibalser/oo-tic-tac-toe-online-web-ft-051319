@@ -75,15 +75,9 @@ class TicTacToe
   end
 
   def draw?
-    #@board.each do |index|
-      if @board == full? && != WIN_COMBINATIONS
-        true
-      elsif @board == WIN_COMBINATIONS
-        false
-      else
-        false
-      end
-    end 
+    !(won?) && (full?)
+  end
+
 
 
 
