@@ -1,3 +1,4 @@
+require 'pry'
 class TicTacToe
   WIN_COMBINATIONS = [
     [0, 1, 2],
@@ -71,6 +72,7 @@ class TicTacToe
 
   def full?
     @board.each do |index|
+    binding.pry
     end
   end 
 
