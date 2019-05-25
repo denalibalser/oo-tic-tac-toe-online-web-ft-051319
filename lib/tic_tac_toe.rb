@@ -74,8 +74,17 @@ class TicTacToe
      @board.all?{|occupied| occupied != " "}
   end
 
-  def over?
-    @board
+  def draw?
+    #@board.each do |index|
+      if @board == full? && != WIN_COMBINATIONS
+        true
+      elsif @board == WIN_COMBINATIONS
+        false
+      else
+        false
+      end
+    end 
+
 
 
 end
