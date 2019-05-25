@@ -1,4 +1,3 @@
-require 'pry'
 class TicTacToe
   WIN_COMBINATIONS = [
     [0, 1, 2],
@@ -10,6 +9,7 @@ class TicTacToe
     [0, 4, 8],
     [2, 4, 6]
   ]
+
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
   end
@@ -103,11 +103,9 @@ class TicTacToe
   elsif draw?
     puts "Cat's Game!"
   end
- end     
+ end
 
-
-
-
-
+ game = TicTacToe.new
+ game.play
 
 end
