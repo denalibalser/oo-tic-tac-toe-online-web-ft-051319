@@ -74,9 +74,10 @@ class TicTacToe
     @board.each do |index|
       if index.all == index
         true
+        binding.pry
       else
         false
-    binding.pry
+
      end
     end
   end
