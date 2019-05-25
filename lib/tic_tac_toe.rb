@@ -73,8 +73,9 @@ class TicTacToe
   def full?
     @board.each do |index|
       if index.all == index
-        true
         binding.pry
+        true
+
       else
         false
 
