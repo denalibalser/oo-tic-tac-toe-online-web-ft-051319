@@ -77,7 +77,7 @@ class TicTacToe
       else
         false
     binding.pry
-  end
+     end
     end
   end
 
