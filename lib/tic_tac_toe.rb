@@ -71,7 +71,7 @@ class TicTacToe
   end
 
   def full?
-    @board.each do |char, index|
+    @board.each do |token, index|
     binding.pry
     end
   end
